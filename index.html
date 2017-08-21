@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<!-- <html dir=rtl> -->
+<head>
+    <meta charset="utf-8">
+    <title>Give Back</title>
+    <!-- Scripts -->
+    <script src="assets/js/myTrashFunctions.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/components/templateController.js"></script>
+    <script src="app/components/templateDirective.js"></script>
+    <!-- Cascading Style Sheets -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+</head> 
+<body class="rtl" ng-app="app" ng-controller="templateController">
+    <div class="col-md-6 col-md-offset-3">
+        <h2>בחר עמותה</h2>
+        <div>
+            <input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="חפש עמותות כאן..." title="הכנס שם עמותה">
+            <ul id="myUL">
+                <li><a href="" data-toggle="tooltip" data-placement="top" title="לחץ כאן לבחירת העמותה" id="network">פעמונים</a></li>
+                <li><a href="" data-toggle="tooltip" data-placement="top" title="לחץ כאן לבחירת העמותה" id="network">זכרון מנחם</a></li>
+                <li><a href="" data-toggle="tooltip" data-placement="top" title="לחץ כאן לבחירת העמותה" id="network">האגודה למלחמה בסרטן</a></li>
+                <li><a href="" data-toggle="tooltip" data-placement="top" title="לחץ כאן לבחירת העמותה" id="network">אור ירוק</a></li>
+        </div>
+        <div>
+            <template-directive></template-directive>      
+        </div>
+        <script>
+
+        </script>
+
+
+
+</body>
+
+</html>
