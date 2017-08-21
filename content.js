@@ -1,4 +1,4 @@
-
+// what is that ?!
 var times = 0 ;
 
 var redirects_url=[];

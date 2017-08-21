@@ -1,4 +1,4 @@
-
+// what is that ?!
 var v=0;
 var redirects_url=[];
 var MILI_SECONDS=24*60*60*1000;
